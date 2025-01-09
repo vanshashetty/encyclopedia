@@ -8,7 +8,7 @@ Clone the repository
 ```bash
 Project repo: https://github.com/<repo>
 ```
-### STEP 01- Create a conda environment after opening the repository
+### STEP 01 - Create a conda environment after opening the repository
 
 ```bash
 conda create -n medibot python=3.10 -y
@@ -19,13 +19,13 @@ conda activate medibot
 ```
 
 
-### STEP 02- install the requirements
+### STEP 02 - Install the requirements
 ```bash
 pip install -r requirements.txt
 ```
 
 
-### Create a `.env` file in the root directory and add your Pinecone & openai credentials as follows:
+### Create a ".env" file in the root directory and add your Pinecone & openai credentials as follows:
 
 ```ini
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
@@ -46,7 +46,7 @@ python app.py
 #launch localhost
 
 
-### Techstack Used:
+### Techstack:
 
 - Python
 - LangChain
